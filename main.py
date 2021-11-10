@@ -1,3 +1,6 @@
+import time
+
+
 def find_prime_number_from_order(n):
     i = 1
     x = 2
@@ -27,4 +30,7 @@ def main():
 
 
 if __name__ == "__main__":
+    t1 = time.time()
     main()
+    t2 = time.time()
+    print(f'Total Time = {t2-t1} seconds')
